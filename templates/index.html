@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div align="center">
+        <h1>I wanna follow follow follow you...</h1>
+        <img width="100%" src="/static/img/drone.png">
+    </div>
+
+    <ul data-role="listview">
+        <li><a href="/controller/">Controller</a></li>
+    </ul>
+
+
+    <div align = "center">
+
+        <img src="{{url_for('video_feed') }}">
+
+    </div>
+{% endblock %}
