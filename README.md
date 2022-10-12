@@ -20,7 +20,6 @@ The entire project is coded using python and the prototype drone used is DJI Tel
 For synergy between a drone, OpenCV algorithm and the web UI we hosted a local server in our local machine. The server takes controls from the user with the help of UI and sends commands to the drone. Our OpenCV implementation lies inside the local machine. The image frames sent by the drone are received through the server and hosted on the website. It is in our local machine the OpenCV code runs after receiving the image frames from the drone.
 The architecture of the whole project has been modelled against the “MVC – Model, View & Controller” pattern.
 
-Fig 2: Architecture Diagram
 
 CONCLUSION:
 Generic solutions like these, help us in providing many diverse application-oriented solutions or a base level abstraction upon which a problem-specific solution can be built. One of such solutions is the face tracking drone that can be used by filmmakers to replace the slider and dolly shots which consume more set space (the area specifically designed or erected in order to perform movie/drama shooting). Vlogging can be taken to the next level with the following drone. Vloggers can now travel places without the concern of holding a big camera or a selfie camera. With the help of manual controls, vloggers can shoot their surroundings too (a win-win situation).
